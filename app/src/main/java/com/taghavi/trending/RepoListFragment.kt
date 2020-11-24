@@ -22,4 +22,5 @@ class RepoListFragment : Fragment() {
         }
         return viewDataBinding.root
     }
+
 }
