@@ -3,10 +3,6 @@ package com.taghavi.trending
 import androidx.databinding.ViewDataBinding
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.taghavi.trending.BR
-import com.taghavi.trending.R
-import com.taghavi.trending.Item
-import com.taghavi.trending.RepoListViewModel
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.view_repo_list_item.view.*
 import org.jetbrains.anko.bundleOf
