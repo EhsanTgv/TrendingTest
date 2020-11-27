@@ -1,8 +1,8 @@
 package com.taghavi.trending
 
-import com.taghavi.trending.BASE_URL
-com.taghavi.trending.Companion.DEBUG
-com.taghavi.trending.REQUEST_TIMEOUT_DURATION
+import com.taghavi.trending.Constants.Companion.BASE_URL
+import com.taghavi.trending.Constants.Companion.DEBUG
+import com.taghavi.trending.Constants.Companion.REQUEST_TIMEOUT_DURATION
 import com.google.gson.GsonBuilder
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
