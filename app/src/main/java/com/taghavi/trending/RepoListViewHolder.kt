@@ -1,6 +1,5 @@
 package com.taghavi.trending
 
-import android.content.ClipData
 import androidx.databinding.ViewDataBinding
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
@@ -12,7 +11,7 @@ class RepoListViewHolder constructor(private val dataBinding: ViewDataBinding, p
     : RecyclerView.ViewHolder(dataBinding.root) {
 
     val avatarImage = itemView.item_avatar
-    fun setup(itemData: ClipData.Item) {
+    fun setup(itemData: Item) {
         dataBinding.setVariable(BR.itemData, itemData)
         dataBinding.executePendingBindings()
 

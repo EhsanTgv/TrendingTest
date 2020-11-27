@@ -3,10 +3,10 @@ package com.taghavi.trending
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.taghavi.trending.RepoListViewHolder
-import com.taghavi.trending.RepoListViewModel
+import com.taghavi.trending.databinding.ViewRepoListItemBinding
 
-class RepoListAdapter(private val repoListViewModel: RepoListViewModel) : RecyclerView.Adapter<RepoListViewHolder>() {
+class RepoListAdapter(private val repoListViewModel: RepoListViewModel) :
+    RecyclerView.Adapter<RepoListViewHolder>() {
     var repoList: List<Item> = emptyList()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RepoListViewHolder {
